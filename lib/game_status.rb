@@ -32,7 +32,7 @@ WIN_COMBINATIONS = [
   end
   
   def over?(board)
-    draw?(board) || full?(board)
+    draw?(board) || full?(board) || won?(board) != nil
   end
   
   
