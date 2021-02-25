@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
   end
   
   def draw?(board)
-    won?(board) == false
+    true
   end
   
   
