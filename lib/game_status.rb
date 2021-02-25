@@ -23,6 +23,6 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     if board.all? do |position|
-      
+      position == "X" || position == "O"
     end
   end
