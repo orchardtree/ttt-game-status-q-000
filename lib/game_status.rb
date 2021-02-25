@@ -32,7 +32,7 @@ WIN_COMBINATIONS = [
   end
   
   over?(board)
-end
+  end
   
   
   
