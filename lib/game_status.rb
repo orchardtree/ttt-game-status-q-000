@@ -35,7 +35,7 @@ WIN_COMBINATIONS = [
     draw?(board) || full?(board) || won?(board) != nil
   end
   
-  winner(board)
+  def winner(board)
     won?(board)
   end
   
