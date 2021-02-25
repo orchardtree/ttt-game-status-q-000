@@ -28,7 +28,8 @@ WIN_COMBINATIONS = [
   end
   
   def draw?(board)
-    won?(board)
+    #won?(board)
+    full?(board)
   end
   
   
