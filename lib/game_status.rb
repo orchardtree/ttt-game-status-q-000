@@ -36,7 +36,7 @@ WIN_COMBINATIONS = [
   end
   
   winner(board)
-    
+    won?(board)[0]
   end
   
   
