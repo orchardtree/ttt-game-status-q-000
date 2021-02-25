@@ -31,7 +31,7 @@ WIN_COMBINATIONS = [
     won?(board) == nil && full?(board) == true
   end
   
-  over?(board)
+  def over?(board)
   end
   
   
