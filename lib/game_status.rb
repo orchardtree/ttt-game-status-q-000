@@ -36,7 +36,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    win_combination == won?(board)
+    win_combination = won?(board)
     win_combination[0]
   end
   
