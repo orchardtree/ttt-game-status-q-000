@@ -18,9 +18,7 @@ WIN_COMBINATIONS = [
   def won?(board)
     if board.all?{|position| position == " " || position == nil}
       false
-    #elsif board.all?{|position| position == "X" || position == "O"}
-      #false
-    #else
+    else
       WIN_COMBINATIONS.find do |win_combination|
         board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X" || board[win_combination[0]] == "O" &&  board[win_combination[1]] == "O" && board[win_combination[2]] == "O"
       end
